@@ -10,19 +10,19 @@ function showTombstones() {
 
 var symbols = [
   {
-    imgPath: "1.png",
+    imgPath: "1A.png",
    
   },
   {
-    imgPath: "2.png",
+    imgPath: "2A.png",
     
   },
   {
-    imgPath: "3.png",
+    imgPath: "3A.png",
    
   },
   {
-    imgPath: "4.png",
+    imgPath: "4A.png",
     
   },
   {
@@ -122,11 +122,11 @@ var symbols = [
 
   },
   {
-    imgPath: "5.png",
+    imgPath: "5A.png",
   
   },
   {
-    imgPath: "6.png",
+    imgPath: "6A.png",
     
   },
   {

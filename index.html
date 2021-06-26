@@ -4,64 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CREATE PHOTOBOT</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>IS MJ ALIVE?</title>
+    <link
+      rel="shortcut icon"
+      href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%F0%9F%A7%9F%E2%80%8D%E2%99%82%EF%B8%8F%3C%2Ftext%3E%3C%2Fsvg%3E"
+      type="image/svg+xml"
+    />
     <style>
       body {
-        background-image: url("bg.png");
-        background-repeat: no-repeat;
-        font-family: Helvetica;
-        background-position: center;
+        padding: 100;
+        margin: 100 100;
+        /* max-width: 800px; */
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      h1,
+      h2 {
+        text-transform: uppercase;
+      }
+      #mapid {
+        height: 100vh;
+        width: 100vw;
+      }
+
+      /* .my-popup {
+        border: 2px solid blue;
+      } */
+
+      .link {
+        color: rgb(255, 0, 0);
       }
     </style>
+    <link rel="stylesheet" href="mapstyle.css" />
   </head>
-  <body style="margin: 0px">
-    <a class="download-link"></a>
+  <body>
+    
+    <div class="data"></div>
+    <a class="link" href="page-2.html">CREATE PHOTOBOT</a>
+    <div id="mapid">
+      <div class="data"></div>
+       <center> <h1>WHERE WAS MJ LAST SPOTTED?</h1> </center>
+      <div id="mapid">
 
-    <center><h1>CREATE PHOTOBOT</h1></center> 
 
-    <section>
-      <!-- <img src="vid1.gif" class="center" />
-      <img src="5.png" width="10%" height="10%" class="center test" />
-      <img src="descr.png" width="10%" height="10%" class="center" />
-      <img src="formula.png" width="10%" height="10%" class="center" />
-      <div class="box-1"></div>
-      <div class="box-1"></div>
-      <div class="box-1"></div>
-      <img src="2.png" width="10%" height="10%" class="center" />
-      <div class="row cause-of-death-row"></div> -->
+      
+      <img
+        class="leaflet-image-layer leaflet-zoom-animated"
+        src="MAP.png"
+        alt=""
+        style="z-index: 1; width: 100vw; height: 100vh"
+      />
+    </div>
 
-      <div class="box-1"></div>
-
-      <!-- <img src="4.png" width="10%" height="10%" class="center" />
-      <div class="row place-of-death-row"></div> -->
-
-      <!-- <div class="box-1"></div>
-
-      <div class="box-1"></div> -->
-
-      <!-- <img src="3.png" width="10%" height="10%" class="center" /> -->
-
-      <div class="symbols">
-        <!-- <div class="grave-center">
-          <img src="grav33.png" class="big-grave" />
-          <img src="plce33.png" class="big-place" /> -->
-        </div>
-      </div>
-      <button class="button2">
-        <img src="save.png" alt="Save" width="100%" />
-      </button>
-      <div class="box-1"></div>
-      <!-- <button class="button">
-        <img src="look.png" alt="Посмотреть надгробия" width="100%" />
-      </button> -->
-
-      <div id="divImage"></div>
-    </section>
-    <script src="https://unpkg.com/html2canvas@1.0.0-rc.7/dist/html2canvas.js"></script>
-    <script src="random.js"></script>
-
-    <script src="dragsymbols.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="maptry.js"></script>
   </body>
 </html>
